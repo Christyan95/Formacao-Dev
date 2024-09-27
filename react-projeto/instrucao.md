@@ -10,6 +10,10 @@
 
 # npx create-next-app@latest
 
-# 4 - Rodar projeto
+# 4 - Instalar biblioteca de icons
+
+# npm install @tabler/icons-react
+
+# 5 - Rodar projeto
 
 # npm run dev

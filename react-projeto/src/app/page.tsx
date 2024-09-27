@@ -1,13 +1,11 @@
-import Botao from "@/components/Botao";
+'user client';
+import Pagina from '@/components/template/Pagina';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <>
-      <div className="flex gap-2">
-        <Botao />
-        <Botao label="Salvar"/>
-        <Botao label="Cancelar"/>
-      </div>
-    </>
+    <Pagina>
+      <h1 className="text-2xl font-bold">Seja Bem Vindo!!</h1>
+    </Pagina>
   );
 }
